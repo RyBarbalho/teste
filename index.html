@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventura no mundo de D&D</title>
+</head>
+<body>
+    <head>
+        <section>
+            <h2>Taxas e serviços</h2>
+            <p>vejam nossas taxas para serviços</p>
+            <table border="">
+                <caption>Descrição dos valores</caption>
+                <thead>
+                <tr>
+                    <th>
+                        serviços
+                    </td>
+                    <th>valor
+                    </td>
+                
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>
+                        reserva de hotel
+                    </td>
+                    <td>S$1500
+
+                    </td>
+                </tr>
+                <tr>
+                    <td> 
+                        Passagem
+                    </td>
+                    <td>
+                        1000
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        serviço 
+                    </td>
+                    <td> valor</td>
+                </tr>
+            </tfoot>
+        
+            </table>
+        </section>
+        <section>
+            <h2>Contado</h2>
+            <form action="" method="get">
+                <fieldset>
+                <legend>Reserva da viagem</legend><br>  
+
+                <label >Nome</label><br>
+                <input type="text" name+="nome"><br> <br>
+
+                <label>Email</label> <br>
+                <input type="email" name="email"><br><br>
+
+                <label>data de ida</label><br>
+                <input type="date" name=" dataIda"><br><br>
+
+                <label>data de volta</label><br>
+                <input type="date" name="dataVolta"><br><br>
+
+                <label>quantidade de pessoas</label><br>
+                <input type="number" name="quantidade de pessoas"><br><br>
+
+                <label >comentario</label><br>
+                <textarea name="comentario" id="" cols="20" rows="5"></textarea><br><br>
+            </fieldset>
+                <fieldset>
+                <legend>quais serviços deseja contratar</legend><br><br>
+                 <label >
+                    <br><input type="checkbox" name="passagem" value="passagem"> compra de passagem
+                 </label>
+               <label>
+                <br> <input type="checkbox" name="hospedagem" value="hospedagem"> reserva de hospedagem
+               </label>
+                 <label>
+                    <br><input type="checkbox" name="veiculos" value="veiculo"> reserva de veiculo <br><br> </label>
+                 
+                </fieldset>
+                <fieldset>
+                    <legend>Escolha a forma de pegamento</legend>
+                    <label>
+                        <br> <input type="radio" name="formapagamento" value="cartão de credito">cartão de credito
+                    </label>
+                    <label>
+                        <br> <input type="radio" name="formapagamento" value="boleto">boleto
+                    </label>
+                    <label >
+                        <br><input type="radio" name="formapagamento" value="pix">pix
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Escolha o prazo do pagamento</legend>
+                    <select name="prazopagmento">
+                        <option value="a vista"> a vista</option>
+                        <option value="5x">5x sem juros</option>
+                        <option value="10x">10x com juros</option>
+                    </select>
+                </fieldset>
+                <button>Salvar</button>
+                 </form>
+        </section>
+    </head>
+</body>
+</html>
